@@ -1,6 +1,6 @@
 const TelegramApi = require("node-telegram-bot-api");
 let language, pz, username;
-const token = "6588329065:AAGfPqzD-9uiDWMbJ-N5_8C1mxFtCdvHbBQ";
+const token = "";
 const bot = new TelegramApi(token, { polling: true });
 
 const languageButtons = {
